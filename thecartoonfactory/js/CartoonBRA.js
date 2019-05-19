@@ -7,7 +7,7 @@ function getonairLoop(){
       document.getElementById("av").innerHTML = conteudo.flavour + ' - ' + conteudo.flavourName + '. Começou às ' + conteudo.flavourBeg + ', Termina às ' + conteudo.flavourExp + '.';
     }
     else {
-      document.getElementById("strawberryFlavour").innerHTML = 'Erro! Um problema técnico impossibilita a recepção da programação.;
+      document.getElementById("strawberryFlavour").innerHTML = 'Erro! Um problema técnico impossibilita a recepção da programação.';
     }
   };
   xhttp.open("GET", "https://thecartoonfactory.herokuapp.com/no_ar.php", true);
